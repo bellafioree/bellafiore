@@ -1,15 +1,60 @@
 # bellafiore
-<header class="hero">
-  <h1>Bellafiore Deco</h1>
-  <p>Poné tu hogar más lindo</p>
-  <a href="https://wa.me/..." class="btn">Contactanos por WhatsApp</a>
-</header>
-<section id="productos">
-  <h2>Novedades</h2>
-  <div class="producto">
-    <img src="..." alt="Vaso Shaker">
-    <h3>Vaso Shaker</h3>
-    <p>Promos y novedades del local</p>
-  </div>
-  <!-- más productos -->
-</section>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bellafiore Deco</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Encabezado -->
+  <header class="hero">
+    <h1>Bellafiore Deco</h1>
+    <p>Poné tu hogar más lindo ✨</p>
+    <a href="https://wa.me/5491123456789" class="btn">Contactanos por WhatsApp</a>
+  </header>
+
+  <!-- Sobre Nosotros -->
+  <section id="sobre">
+    <h2>Sobre Bellafiore</h2>
+    <p>Somos un emprendimiento dedicado a la deco, bazar y regalos únicos en Buenos Aires. 
+    Nos encanta ayudarte a que tu casa sea un lugar cálido, práctico y con estilo.</p>
+  </section>
+
+  <!-- Productos -->
+  <section id="productos">
+    <h2>Nuestros Productos</h2>
+    <div class="grid">
+      <div class="producto">
+        <img src="img/shaker.jpg" alt="Vaso Shaker">
+        <h3>Vaso Shaker</h3>
+        <p>Colores vibrantes para tus bebidas favoritas.</p>
+      </div>
+      <div class="producto">
+        <img src="img/almohadon.jpg" alt="Almohadón">
+        <h3>Almohadón Deco</h3>
+        <p>Diseños únicos para tu living.</p>
+      </div>
+      <div class="producto">
+        <img src="img/mate.jpg" alt="Toppings Mate">
+        <h3>Toppings para Mate</h3>
+        <p>Un detalle original y divertido.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contacto -->
+  <section id="contacto">
+    <h2>Contacto</h2>
+    <p>📍 Chilavert 6151, Buenos Aires</p>
+    <p>📲 <a href="https://www.instagram.com/bellafioredeco" target="_blank">@bellafioredeco</a></p>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Bellafiore Deco - Todos los derechos reservados</p>
+  </footer>
+</body>
+</html>
+
